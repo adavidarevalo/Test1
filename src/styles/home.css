@@ -6,6 +6,7 @@
     align-content: center;
     grid-column-start: 1;
     grid-row-start: 1;
+    max-width: 600px;
 }
 .branding > div > h2 {
     font-size: 3rem;
@@ -29,6 +30,7 @@
     align-content: center;
     background: black;
     color: white;
+    max-width: 600px;
 }
 .Design > div > h2 {
     font-size: 3rem;
@@ -48,7 +50,7 @@
     padding: 20px;
 }
 .OurApproach > div{
-    width: 60%;
+    width: 90%;
     margin: 0 auto;
 }
 .OurApproach > div > div{
@@ -74,6 +76,7 @@
     color: white;
     grid-column-start: 1;
     grid-row-start: 1;
+    max-width: 600px;
 }
 .BrandNaming > div > h2{
     font-size: 3rem;
@@ -90,11 +93,11 @@ h2{
     text-align: center;
 }
 .Form > form{
-    padding: 50px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-content: center;
+    padding: 0px 50px 50px 50px;
 }
 .form-group{
     display: flex;
@@ -141,5 +144,8 @@ p{
         padding-block: 25px;
         width: 80%;
         margin: 0 auto;
+    }
+    .OurApproach > div{
+        width: 60%;
     }
 }
