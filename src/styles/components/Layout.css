@@ -1,0 +1,78 @@
+header{
+    background: white;
+}
+.Header-Container{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    margin: 0 auto;
+    padding-block: 8px;
+}
+.Header-Container > button{
+    border: none;
+    background: none;
+}
+.Header-Menu_Mobile{
+    width: 100%;
+    position: fixed;
+    top: -210px;
+    transition: all 0.8s ease-in-out;
+    z-index: 200;
+}
+.Active{
+    top: 46px;
+}
+.Header-Menu_Mobile > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #191921;
+    width: 80%;
+    margin: 0 auto;
+    padding-block: 10px;
+}
+.Header-Menu_Mobile > div  > a {
+    color: white;
+    padding-block: 15px;
+}
+.Header-Menu_Mobile > div  > a:last-child {
+    background: #F94F4F;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+nav{
+    background: #F94F4F;
+    width: 50%;
+    justify-content: space-around;
+    display: none;
+    align-items: center;
+    border-bottom-left-radius: 10px;
+    padding: 7px;
+}
+nav > a{
+    color: white;
+    font-weight: 600;
+}
+nav > a:last-child{
+    background: black;
+    border-radius: 5px;
+    padding: 15px;
+}
+footer{
+    background: black;
+    text-align: center;
+    color: white;
+    padding-block: 10px;
+}
+@media (min-width: 800px) {
+    .Header-Container{
+        padding-top:0px;
+    }
+    nav{
+        display: flex;
+    }
+    .Header-Container > button{
+        display: none;
+    }
+}

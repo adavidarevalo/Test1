@@ -1,0 +1,146 @@
+.branding > div{
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    grid-column-start: 1;
+    grid-row-start: 1;
+}
+.branding > div > h2 {
+    font-size: 3rem;
+    margin: 4px;
+}
+.branding > div > a {
+    font-size: 1.1rem;
+    background: #F94F4F;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    width: 100px;
+    text-align: center;
+    font-weight: 700;
+}
+.Design > div{
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    background: black;
+    color: white;
+}
+.Design > div > h2 {
+    font-size: 3rem;
+    margin: 10px;
+}
+.Design > div > h2 > span {
+    color: #F94F4F;
+}
+.Design > div > a {
+    color: #F94F4F;
+    font-size: 1.1rem;
+    text-decoration: underline;
+}
+.OurApproach{
+    background: #F94F4F;
+    color: white;
+    padding: 20px;
+}
+.OurApproach > div{
+    width: 60%;
+    margin: 0 auto;
+}
+.OurApproach > div > div{
+    max-width: 400px;
+    position: relative;
+    padding-block: 25px;
+}
+.Approach-Number{
+    position: absolute;
+    font-size: 4rem;
+    margin: 0px;
+    top: -2px;
+    font-weight: 900;
+    letter-spacing: 5px;
+    color: #ffffff33;
+}
+.BrandNaming > div{
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    background: black;
+    color: white;
+    grid-column-start: 1;
+    grid-row-start: 1;
+}
+.BrandNaming > div > h2{
+    font-size: 3rem;
+}
+h2{
+    font-size:3rem
+}
+.BrandNaming > div > div {
+    display: flex;
+    width: 150px;
+    justify-content: space-around;
+}
+.Form > h2{
+    text-align: center;
+}
+.Form > form{
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+.form-group{
+    display: flex;
+    flex-direction: column;
+    margin-block: 15px;
+}
+.form-group > input, .form-group > textarea{
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #F94F4F;
+    margin-top: 10px;
+    padding: 7px 10px;
+}
+.Send{
+    font-size: 1.1rem;
+    background: #F94F4F;
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+    width: 100px;
+    text-align: center;
+    font-weight: 700;
+    border: none;
+}
+p{
+    line-height: 25px;
+}
+@media (min-width: 600px) {
+    .branding, .Design, .OurApproach, .BrandNaming, .Form  {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .OurApproach {
+        background: white;
+        color: black;
+        padding: 0px;
+    }
+    .OurApproach >div:last-child{
+        background: #F94F4F;
+        width: 100%;
+        color: white;
+    }
+    .OurApproach >div > div {
+        padding-block: 10px;
+        width: 80%;
+        margin: 0 auto;
+    }
+}
