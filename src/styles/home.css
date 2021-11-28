@@ -54,13 +54,12 @@
 .OurApproach > div > div{
     max-width: 400px;
     position: relative;
-    padding-block: 25px;
 }
 .Approach-Number{
     position: absolute;
     font-size: 4rem;
     margin: 0px;
-    top: -2px;
+    top: 40px;
     font-weight: 900;
     letter-spacing: 5px;
     color: #ffffff33;
@@ -139,7 +138,7 @@ p{
         color: white;
     }
     .OurApproach >div > div {
-        padding-block: 10px;
+        padding-block: 25px;
         width: 80%;
         margin: 0 auto;
     }
