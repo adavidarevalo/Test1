@@ -1,5 +1,6 @@
 header{
     background: white;
+    animation: fadeInDown 1s both;
 }
 .Header-Container{
     width: 90%;
@@ -80,3 +81,13 @@ footer{
         display: none;
     }
 }
+@keyframes fadeInDown {
+    0% {
+    opacity: 0;
+    transform: translate3d(0, -100%, 0);
+    }
+    100% {
+    opacity: 1;
+    transform: none;
+    }
+    } 

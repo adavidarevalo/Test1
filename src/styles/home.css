@@ -1,3 +1,6 @@
+.branding{
+    animation: fadeIn 1s both;
+}
 .branding > div{
     padding: 50px;
     display: flex;
@@ -165,3 +168,7 @@ p{
         width: 60%;
     }
 }
+@keyframes fadeIn {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+    } 
