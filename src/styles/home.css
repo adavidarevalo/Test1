@@ -1,174 +1,184 @@
-.branding{
-    animation: fadeIn 1s both;
+.branding {
+  animation: fadeIn 1s both;
 }
-.branding > div{
-    padding: 50px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-content: center;
-    grid-column-start: 1;
-    grid-row-start: 1;
-    max-width: 600px;
+.branding > div {
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  grid-column-start: 1;
+  grid-row-start: 1;
 }
 .branding > div > h2 {
-    font-size: 3rem;
-    margin: 4px;
+  font-size: 3rem;
+  margin: 4px;
 }
 .branding > div > a {
-    font-size: 1.1rem;
-    background: #F94F4F;
-    color: white;
-    padding: 10px;
-    border-radius: 10px;
-    width: 100px;
-    text-align: center;
-    font-weight: 700;
+  font-size: 1.1rem;
+  background: #f94f4f;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  width: 100px;
+  text-align: center;
+  font-weight: 700;
 }
 .branding > div > a:hover,
 .branding > div > a:active {
-    background: #c33d3d;
-    box-shadow: 10px 5px 5px #00000012;
+  background: #c33d3d;
+  box-shadow: 10px 5px 5px #00000012;
 }
-.Design > div{
-    padding: 50px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-content: center;
-    background: black;
-    color: white;
-    max-width: 600px;
+.Design > div {
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  background: black;
+  color: white;
 }
 .Design > div > h2 {
-    font-size: 3rem;
-    margin: 10px;
+  font-size: 3rem;
+  margin: 10px;
 }
 .Design > div > h2 > span {
-    color: #F94F4F;
+  color: #f94f4f;
 }
 .Design > div > a {
-    color: #F94F4F;
-    font-size: 1.1rem;
-    text-decoration: underline;
+  color: #f94f4f;
+  font-size: 1.1rem;
+  text-decoration: underline;
 }
 .Design > div > a:hover,
-.Design > div > a:active{
-    color: #c74343;
+.Design > div > a:active {
+  color: #c74343;
 }
 
-.OurApproach{
-    background: #F94F4F;
-    color: white;
-    padding: 20px;
+.OurApproach {
+  background: #f94f4f;
+  color: white;
+  padding: 20px;
 }
-.OurApproach > div{
-    width: 90%;
-    margin: 0 auto;
+.OurApproach > div {
+  width: 90%;
+  margin: 0 auto;
 }
-.OurApproach > div > div{
-    max-width: 400px;
-    position: relative;
+.OurApproach > div > div {
+  max-width: 400px;
+  position: relative;
 }
-.Approach-Number{
-    position: absolute;
-    font-size: 4rem;
-    margin: 0px;
-    top: 40px;
-    font-weight: 900;
-    letter-spacing: 5px;
-    color: #ffffff33;
+.Approach-Number {
+  position: absolute;
+  font-size: 4rem;
+  margin: 0px;
+  top: 40px;
+  font-weight: 900;
+  letter-spacing: 5px;
+  color: #ffffff33;
 }
-.BrandNaming > div{
-    padding: 50px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-content: center;
-    background: black;
-    color: white;
-    grid-column-start: 1;
-    grid-row-start: 1;
-    max-width: 600px;
+.BrandNaming > div {
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  background: black;
+  color: white;
+  grid-column-start: 1;
+  grid-row-start: 1;
 }
-.BrandNaming > div > h2{
-    font-size: 3rem;
+.BrandNaming > div > h2 {
+  font-size: 3rem;
 }
-h2{
-    font-size:3rem
+h2 {
+  font-size: 3rem;
 }
 .BrandNaming > div > div {
-    display: flex;
-    width: 150px;
-    justify-content: space-around;
-    cursor: pointer;
+  display: flex;
+  width: 150px;
+  justify-content: space-around;
+  cursor: pointer;
 }
-.Form > h2{
-    text-align: center;
+.Form {
+  max-width: 1000px;
+  margin: 25px auto;
 }
-.Form > form{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-content: center;
-    padding: 0px 50px 50px 50px;
+.Form > h2 {
+  text-align: center;
 }
-.form-group{
-    display: flex;
-    flex-direction: column;
-    margin-block: 15px;
+.Form > form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  padding: 0px 50px 50px 50px;
 }
-.form-group > input, .form-group > textarea{
-    outline: none;
-    border: none;
-    border-bottom: 1px solid #F94F4F;
-    margin-top: 10px;
-    padding: 7px 10px;
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-block: 15px;
 }
-.Send{
-    font-size: 1.1rem;
-    background: #F94F4F;
-    color: white;
-    padding: 5px;
-    border-radius: 10px;
-    width: 100px;
-    text-align: center;
-    font-weight: 700;
-    border: none;
+.form-group > input,
+.form-group > textarea {
+  outline: none;
+  border: none;
+  border-bottom: 1px solid #f94f4f;
+  margin-top: 10px;
+  padding: 7px 10px;
+}
+.Send {
+  font-size: 1.1rem;
+  background: #f94f4f;
+  color: white;
+  padding: 5px;
+  border-radius: 10px;
+  width: 100px;
+  text-align: center;
+  font-weight: 700;
+  border: none;
 }
 .Send:hover,
-.Send:active{
-    background: #c33d3d;
-    box-shadow: 10px 5px 5px #00000012;
+.Send:active {
+  background: #c33d3d;
+  box-shadow: 10px 5px 5px #00000012;
 }
-p{
-    line-height: 25px;
+p {
+  line-height: 25px;
 }
 @media (min-width: 600px) {
-    .branding, .Design, .OurApproach, .BrandNaming, .Form  {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-    }
-    .OurApproach {
-        background: white;
-        color: black;
-        padding: 0px;
-    }
-    .OurApproach >div:last-child{
-        background: #F94F4F;
-        width: 100%;
-        color: white;
-    }
-    .OurApproach >div > div {
-        padding-block: 25px;
-        width: 80%;
-        margin: 0 auto;
-    }
-    .OurApproach > div{
-        width: 60%;
-    }
+  .branding,
+  .Design,
+  .OurApproach,
+  .BrandNaming,
+  .Form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .OurApproach {
+    background: white;
+    color: black;
+    padding: 0px;
+  }
+  .OurApproach > div:last-child {
+    background: #f94f4f;
+    width: 100%;
+    color: white;
+  }
+  .OurApproach > div > div {
+    padding-block: 25px;
+    width: 80%;
+    margin: 0 auto;
+  }
+  .OurApproach > div {
+    width: 60%;
+  }
 }
 @keyframes fadeIn {
-    0% {opacity: 0;}
-    100% {opacity: 1;}
-    } 
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

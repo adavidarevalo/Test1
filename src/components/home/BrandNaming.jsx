@@ -17,7 +17,7 @@ const carousel = [
     },
     {
         image: imageSlide3,
-        title: 'guidelines'
+        title: 'Design'
     },
 ]
 const BrandNaming = () => {
