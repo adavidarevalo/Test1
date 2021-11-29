@@ -32,10 +32,12 @@ const BrandNaming = () => {
     }
     const back = () => {
         if(carouselItem === 0){
-            setCarousel(3)
+            setCarousel(2)
             return
         }
+        console.log('x1 ', carouselItem)
         setCarousel(carouselItem - 1)
+        console.log('x2 ', carouselItem)
     }
     return(
         <section className="BrandNaming">
