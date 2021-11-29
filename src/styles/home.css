@@ -22,6 +22,11 @@
     text-align: center;
     font-weight: 700;
 }
+.branding > div > a:hover,
+.branding > div > a:active {
+    background: #c33d3d;
+    box-shadow: 10px 5px 5px #00000012;
+}
 .Design > div{
     padding: 50px;
     display: flex;
@@ -44,6 +49,11 @@
     font-size: 1.1rem;
     text-decoration: underline;
 }
+.Design > div > a:hover,
+.Design > div > a:active{
+    color: #c74343;
+}
+
 .OurApproach{
     background: #F94F4F;
     color: white;
@@ -88,6 +98,7 @@ h2{
     display: flex;
     width: 150px;
     justify-content: space-around;
+    cursor: pointer;
 }
 .Form > h2{
     text-align: center;
@@ -121,6 +132,11 @@ h2{
     text-align: center;
     font-weight: 700;
     border: none;
+}
+.Send:hover,
+.Send:active{
+    background: #c33d3d;
+    box-shadow: 10px 5px 5px #00000012;
 }
 p{
     line-height: 25px;

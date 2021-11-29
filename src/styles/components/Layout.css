@@ -36,6 +36,10 @@ header{
     color: white;
     padding-block: 15px;
 }
+.Header-Menu_Mobile > div  > a:hover,
+.Header-Menu_Mobile > div  > a:active {
+    color: #e5e5e5;
+}
 .Header-Menu_Mobile > div  > a:last-child {
     background: #F94F4F;
     padding: 10px 15px;
